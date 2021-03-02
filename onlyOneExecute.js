@@ -11,8 +11,7 @@ const download = require("download");
 
 
 const JD_COOKIE = process.env.JD_COOKIE; //格式格式格式三遍
-
-const Efork = process.env.EFORK; //
+const EFORK = process.env.EFORK; //
 const SCKEY = process.env.SCKEY; //SEVER-酱油
 const BARK_PUSH = process.env.BARK_PUSH; //
 const PUSH_KEY = process.env.PUSH_KEY; //
@@ -34,15 +33,15 @@ async function changeFiele(content, cookie) {
 
      let newContent = content.replace("require('./jdCookie.js')", JSON.stringify({ CookieJD: cookie }));
      
-     newContent = newContent.replace(`require("./jdCookie.js")`, JSON.stringify({ CookieJD: cookie }));
+         newContent = newContent.replace(`require("./jdCookie.js")`, JSON.stringify({ CookieJD: cookie }));
      
-     newContent = newContent.replace(`require('./jdCookie.js')`, JSON.stringify({ CookieJD: cookie }));
+         newContent = newContent.replace(`require('./jdCookie.js')`, JSON.stringify({ CookieJD: cookie }));
           
-     newContent = newContent.replace(Efork,'Efork');
+         newContent = newContent.replace(Efork,'Efork');
     
-    newContent = newContent.replace(/require\('.\/(\w+)ShareCodes.js\'\)/g, JSON.stringify(shareCodes)); 
+         newContent = newContent.replace(/require\('.\/(\w+)ShareCodes.js\'\)/g, JSON.stringify(shareCodes)); 
  
-    newContent =newContent.replace(/var Key = ''/, `var Key = '${cookie}'`);
+         newContent =newContent.replace(/var Key = ''/, `var Key = '${cookie}'`);
        if (!HELPURL)  
       console.log(`木有互助码数据，请在secret中加入朱丽娜网址`);
       else
