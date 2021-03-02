@@ -2,7 +2,7 @@
     "name": "xba",
     "version": "1.0.0",
     "description": "sign everything",
-    "main": "Ponysitters_Club_Season.js",
+    "main": "onlyOneExecute.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
