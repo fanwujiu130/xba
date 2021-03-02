@@ -18,7 +18,7 @@
     "bugs": {
         "url": "https://github.com/fanwujiu130/xba/issues"
     },
-     "homepage": "https://github.com/fanwujiu130/xba#readme",
+    "homepage": "https://github.com/fanwujiu130/xba#readme",
 	"dependencies":{
     "crypto-js":"^4.0.0",
     "download":"^8.0.0",
