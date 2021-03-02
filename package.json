@@ -15,6 +15,10 @@
     ],
     "author": "fanwujiu130",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fanwujiu130/xba/issues"
+    },
+     "homepage": "https://github.com/fanwujiu130/xba#readme",
 	"dependencies":{
     "crypto-js":"^4.0.0",
     "download":"^8.0.0",
@@ -24,7 +28,5 @@
     "request":"^2.88.2",
     "tough-cookie":"^4.0.0",
     "tunnel":"0.0.6"},
-    "homepage": "https://github.com/fanwujiu130/xba#readme",
-    "bugs": {
-        "url": "https://github.com/fanwujiu130/xba/issues"
-    }
+   
+   
